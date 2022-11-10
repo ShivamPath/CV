@@ -1,0 +1,90 @@
+body {
+  background-color:mistyrose
+}
+
+hr {
+  border-color: grey;
+  border-width: 4px;
+  border-style: dotted none none;
+  height: 0px;
+  width: 8%;  
+}
+img{
+  filter: drop-shadow(0mm 0mm 30mm); color:rgb(219, 10, 174);
+}
+input:focus{
+  background-color:lightsalmon;
+}
+
+label:focus-within{
+  font-weight: bold;
+}
+
+textarea{
+  color: blueviolet;
+}
+textarea:focus{
+  background-color:darkkhaki
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: Black;
+  text-decoration-color: rgb(112, 42, 6);
+}
+
+mark {
+  background-color: rgb(19, 197, 31);
+  color: black;
+}
+
+select:focus{
+  background-color:rgb(26, 194, 163)
+}
+
+h1
+{
+   color: rgb(44, 154, 157);
+}
+video::backdrop{
+  background-color: rgb(39, 187, 192);
+}
+/********************* Class Selectors *************************/
+
+.Heading2{
+  color:cadetblue
+}
+.heading4{
+  color:darksalmon
+}
+
+/* elements can have more than one classes */
+
+.circular{
+  border-radius: 100%; 
+}
+
+/******************** ID selectors *****************************/
+
+#homeLink{
+  color: rgb(113, 106, 6);
+  font-weight:bold;
+  text-decoration-color: brown;
+}
+#homeLink:hover{
+  color:hotpink
+}
+#videoLink{
+  color:rgb(44, 154, 157);
+  text-decoration-color:brown;
+}
+#videoLink:hover{
+  color:hotpink
+}
+/********************* Pseudo class *************************/
+a:hover{
+  color: hotpink;
+}
